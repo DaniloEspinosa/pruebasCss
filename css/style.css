@@ -1,0 +1,30 @@
+/* Esto es un comentario */
+/* selector {
+  propiedad : valor;
+} */
+
+/* Selector de etiqueta */
+div {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Selector de clase */
+  .black {
+    background-color: black;
+  }
+  
+  .subrayado {
+    text-decoration: underline;
+  }
+  
+  /*Selector de id*/
+  #p1 {
+    color: black;
+    background-color: yellow;
+  }
+
+  #p1 {
+    color: aquamarine;
+    background-color: gray;
+  }

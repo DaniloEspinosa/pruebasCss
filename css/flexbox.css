@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+}
+
+.padre {
+    max-width: 90%;
+    height: 600px;
+    border: 10px solid black;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.hijo {
+    background-color: #ccc;
+    border: 5px solid red;
+    width: 100px;
+    height: 100px;
+}

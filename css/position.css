@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 10px solid #ccc;
+    max-width: 80%;
+    height: 1000px;
+    margin: 20px;
+    position: relative;
+}
+
+.adicional {
+    border: 10px solid #ccc;
+    max-width: 80%;
+    height: 1000px;
+    margin: 20px;
+    position: relative;
+}
+
+.container div {
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.static {
+    background-color: aqua;
+    position: static; /*Esta propiedad es por defecto*/
+}
+
+.absolute {
+    background-color: bisque;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.relative {
+    background-color: rgb(182, 145, 218);
+    position: relative;
+    left: 100px;
+}
+
+.fixed {
+    background-color: rgb(239, 93, 82);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.sticky {
+    background-color: #13a81399; /* los utimos 2 son transparencia*/
+    position: sticky;
+    top: 0;
+    left: 100%;
+}
+
